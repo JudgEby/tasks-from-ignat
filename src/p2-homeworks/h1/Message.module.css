@@ -1,0 +1,65 @@
+.post {
+    display: flex;
+    align-items: flex-end;
+}
+
+
+
+.post .avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.post .avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.post .angle {
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, #4a5050 0);
+}
+
+.post .message {
+    padding: 10px;
+    background-color: #4a5050;
+    border-radius: 10px 10px 10px 0;
+    display: flex;
+}
+
+/*.post .message:after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*    top: 50%;*/
+/*    width: 0;*/
+/*    height: 0;*/
+/*    border: 5px solid transparent;*/
+/*    border-left-color: #dcf8c6;*/
+/*    border-right: 0;*/
+/*    margin-top: -5px;*/
+/*    margin-right: -5px;*/
+/*}*/
+
+.post .main {
+    min-width: 150px;
+    max-width: 300px;
+}
+
+.post .message .main .name {
+    color: #c14ff6;
+    font-weight: bold;
+}
+
+.post .message .main .text {
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.post .message .time {
+    display: flex;
+    align-items: flex-end;
+    color: rgba(172, 172, 172, 0.5)
+}
