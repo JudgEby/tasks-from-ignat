@@ -1,0 +1,20 @@
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorCode {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.errorMessage {
+    font-size: 30px;
+}
