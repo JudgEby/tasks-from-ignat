@@ -1,0 +1,40 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.people {
+    background-color: #83f6f3;
+}
+
+.people .name {
+    display: inline-block;
+    min-width: 200px;
+}
+
+.people .age {
+    display: inline-block;
+    min-width: 20px;
+    text-align: right;
+}
+
+.button {
+    background-color:#83f6f3;
+    border-radius:17px;
+    border:2px solid #5fb3b0;
+    display:inline-block;
+    cursor:pointer;
+    color: #000000;
+    font-size:15px;
+    padding:3px 10px;
+    text-decoration:none;
+}
+.button:hover {
+    background-color:#5fb3b0;
+}
+.button:active {
+    position:relative;
+    top:1px;
+}
