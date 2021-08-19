@@ -21,3 +21,19 @@
 .some-text {
     color: darkslateblue;
 }
+
+.blue {
+    background: #c2fdfd;
+}
+
+.blue-text {
+    color: #000000;
+}
+
+.chocolate {
+    background: chocolate;
+}
+
+.chocolate-text {
+    color: pink;
+}

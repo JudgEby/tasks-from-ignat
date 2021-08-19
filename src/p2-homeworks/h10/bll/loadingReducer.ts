@@ -1,6 +1,6 @@
 type InitStateType = typeof initState
 
-type ActionsTypes = LoadingACType
+export type LoadingActionsTypes = LoadingACType
 
 enum IS_LOADING {
   IS_LOADING = 'IS_LOADING',
@@ -12,7 +12,7 @@ const initState = {
 
 export const loadingReducer = (
   state = initState,
-  action: ActionsTypes
+  action: LoadingActionsTypes
 ): InitStateType => {
   // fix any
   switch (action.type) {
